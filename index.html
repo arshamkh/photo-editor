@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="all">
+   <div class="photo">
+    <div class="pic"><input type="file" id="file" accept="image/jpeg,image/jpg,image/png"></div>
+    <div id="div"></div>
+   </div>
+    <div class="inputs">
+    <label for="range2">opacity</label>
+    <input type="range" id="range2" oninput="change()" min="0" max="100" value="100" step="1">
+    <label for="range">radius</label>
+    <input type="range" id="range" oninput="change()" min="0" max="50" value="0" step="1">
+    <label for="range3">blur</label>
+    <input type="range" id="range3" oninput="change()" min="0" max="100" value="0" step="1">
+    <label for="range4">brightness</label>
+    <input type="range" id="range4" oninput="change()" min="0" max="100" value="100" step="1">
+    <label for="range5">hue-rotate</label>
+    <input type="range" id="range5" oninput="change()" min="0" max="100" value="0" step="1">
+    <label for="range6">gray-scale</label>
+    <input type="range" id="range6" oninput="change()" min="0" max="100" value="0" step="1">
+    
+    </div>
+</div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
